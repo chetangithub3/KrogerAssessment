@@ -1,0 +1,373 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		61E23F8D2C45A04300BDE7E5 /* KrogerAssessmentApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61E23F8C2C45A04300BDE7E5 /* KrogerAssessmentApp.swift */; };
+		61E23F8F2C45A04300BDE7E5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61E23F8E2C45A04300BDE7E5 /* ContentView.swift */; };
+		61E23F912C45A04500BDE7E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 61E23F902C45A04500BDE7E5 /* Assets.xcassets */; };
+		61E23F942C45A04500BDE7E5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 61E23F932C45A04500BDE7E5 /* Preview Assets.xcassets */; };
+		61E23F9B2C45A1AC00BDE7E5 /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61E23F9A2C45A1AC00BDE7E5 /* ContentViewModel.swift */; };
+		61E23F9D2C45A1D200BDE7E5 /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61E23F9C2C45A1D200BDE7E5 /* APIService.swift */; };
+		61E23FA12C45A76A00BDE7E5 /* UserDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61E23FA02C45A76A00BDE7E5 /* UserDetailView.swift */; };
+		61E23FA32C45A7D100BDE7E5 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61E23FA22C45A7D100BDE7E5 /* User.swift */; };
+		61E23FA52C45AD0200BDE7E5 /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = 61E23FA42C45AD0200BDE7E5 /* data.json */; };
+		61E23FA72C46CBBE00BDE7E5 /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61E23FA62C46CBBE00BDE7E5 /* Utility.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		61E23F892C45A04300BDE7E5 /* KrogerAssessment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KrogerAssessment.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		61E23F8C2C45A04300BDE7E5 /* KrogerAssessmentApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KrogerAssessmentApp.swift; sourceTree = "<group>"; };
+		61E23F8E2C45A04300BDE7E5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		61E23F902C45A04500BDE7E5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		61E23F932C45A04500BDE7E5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		61E23F9A2C45A1AC00BDE7E5 /* ContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
+		61E23F9C2C45A1D200BDE7E5 /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
+		61E23FA02C45A76A00BDE7E5 /* UserDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailView.swift; sourceTree = "<group>"; };
+		61E23FA22C45A7D100BDE7E5 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		61E23FA42C45AD0200BDE7E5 /* data.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
+		61E23FA62C46CBBE00BDE7E5 /* Utility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utility.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		61E23F862C45A04300BDE7E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		61E23F802C45A04300BDE7E5 = {
+			isa = PBXGroup;
+			children = (
+				61E23F8B2C45A04300BDE7E5 /* KrogerAssessment */,
+				61E23F8A2C45A04300BDE7E5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		61E23F8A2C45A04300BDE7E5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				61E23F892C45A04300BDE7E5 /* KrogerAssessment.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		61E23F8B2C45A04300BDE7E5 /* KrogerAssessment */ = {
+			isa = PBXGroup;
+			children = (
+				61E23F8C2C45A04300BDE7E5 /* KrogerAssessmentApp.swift */,
+				61E23F8E2C45A04300BDE7E5 /* ContentView.swift */,
+				61E23F9A2C45A1AC00BDE7E5 /* ContentViewModel.swift */,
+				61E23FA02C45A76A00BDE7E5 /* UserDetailView.swift */,
+				61E23FA62C46CBBE00BDE7E5 /* Utility.swift */,
+				61E23FA22C45A7D100BDE7E5 /* User.swift */,
+				61E23F9C2C45A1D200BDE7E5 /* APIService.swift */,
+				61E23FA42C45AD0200BDE7E5 /* data.json */,
+				61E23F902C45A04500BDE7E5 /* Assets.xcassets */,
+				61E23F922C45A04500BDE7E5 /* Preview Content */,
+			);
+			path = KrogerAssessment;
+			sourceTree = "<group>";
+		};
+		61E23F922C45A04500BDE7E5 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				61E23F932C45A04500BDE7E5 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		61E23F882C45A04300BDE7E5 /* KrogerAssessment */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 61E23F972C45A04500BDE7E5 /* Build configuration list for PBXNativeTarget "KrogerAssessment" */;
+			buildPhases = (
+				61E23F852C45A04300BDE7E5 /* Sources */,
+				61E23F862C45A04300BDE7E5 /* Frameworks */,
+				61E23F872C45A04300BDE7E5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KrogerAssessment;
+			productName = KrogerAssessment;
+			productReference = 61E23F892C45A04300BDE7E5 /* KrogerAssessment.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		61E23F812C45A04300BDE7E5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					61E23F882C45A04300BDE7E5 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = 61E23F842C45A04300BDE7E5 /* Build configuration list for PBXProject "KrogerAssessment" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 61E23F802C45A04300BDE7E5;
+			productRefGroup = 61E23F8A2C45A04300BDE7E5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				61E23F882C45A04300BDE7E5 /* KrogerAssessment */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		61E23F872C45A04300BDE7E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61E23F942C45A04500BDE7E5 /* Preview Assets.xcassets in Resources */,
+				61E23FA52C45AD0200BDE7E5 /* data.json in Resources */,
+				61E23F912C45A04500BDE7E5 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		61E23F852C45A04300BDE7E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61E23FA72C46CBBE00BDE7E5 /* Utility.swift in Sources */,
+				61E23F8F2C45A04300BDE7E5 /* ContentView.swift in Sources */,
+				61E23F8D2C45A04300BDE7E5 /* KrogerAssessmentApp.swift in Sources */,
+				61E23F9D2C45A1D200BDE7E5 /* APIService.swift in Sources */,
+				61E23FA12C45A76A00BDE7E5 /* UserDetailView.swift in Sources */,
+				61E23F9B2C45A1AC00BDE7E5 /* ContentViewModel.swift in Sources */,
+				61E23FA32C45A7D100BDE7E5 /* User.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		61E23F952C45A04500BDE7E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		61E23F962C45A04500BDE7E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		61E23F982C45A04500BDE7E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"KrogerAssessment/Preview Content\"";
+				DEVELOPMENT_TEAM = H8X7BGGD4F;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.chetan.KrogerAssessment;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		61E23F992C45A04500BDE7E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"KrogerAssessment/Preview Content\"";
+				DEVELOPMENT_TEAM = H8X7BGGD4F;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.chetan.KrogerAssessment;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		61E23F842C45A04300BDE7E5 /* Build configuration list for PBXProject "KrogerAssessment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61E23F952C45A04500BDE7E5 /* Debug */,
+				61E23F962C45A04500BDE7E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		61E23F972C45A04500BDE7E5 /* Build configuration list for PBXNativeTarget "KrogerAssessment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61E23F982C45A04500BDE7E5 /* Debug */,
+				61E23F992C45A04500BDE7E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 61E23F812C45A04300BDE7E5 /* Project object */;
+}

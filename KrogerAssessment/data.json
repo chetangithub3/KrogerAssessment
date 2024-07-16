@@ -1,0 +1,23 @@
+[
+    {
+        "fname": "John",
+        "lname": "Doe",
+        "phone": "123-456-7890",
+        "email": "john.doe@example.com",
+        "gender": "male"
+    },
+    {
+        "fname": "Jane",
+        "lname": "Smith",
+        "phone": "987-654-3210",
+        "email": "jane.smith@example.com",
+        "gender": "female"
+    },
+    {
+        "fname": "Alex",
+        "lname": "Johnson",
+        "phone": "555-555-5555",
+        "email": "alex.johnson@example.com",
+        "gender": "non-binary"
+    }
+]
